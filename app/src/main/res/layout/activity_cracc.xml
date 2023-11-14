@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cracc">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bgacc"/>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="43dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/wb" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="304dp"
+        android:layout_height="43dp"
+        android:id = "@+id/mail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/dettext"
+        android:fontFamily="@font/jost"
+        android:hint="   Email Adress"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="304dp"
+        android:layout_height="43dp"
+        android:id = "@+id/pass"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/dettext"
+        android:fontFamily="@font/jost"
+        android:hint="   Password"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup"
+        android:layout_width="109dp"
+        android:layout_height="29dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/ready" />
+
+</RelativeLayout>

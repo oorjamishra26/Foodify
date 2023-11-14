@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "292687307384",
+    "project_id": "foodifymad",
+    "storage_bucket": "foodifymad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292687307384:android:117fc9257d5404911e838d",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCvp65ZzMw7kR_im2HW_xZ10uc7Vk7PYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,111 @@
+{
+  "name": "rectangle_1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "nogI8QWMonwjsVNx9eBYr2",
+    "node": "12:18",
+    "version": "4387400979",
+    "component-id": "2954f53e92d1f69994c6e925ddc6b5a25e77468b"
+  },
+  "default": "Rectangle 1",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "text",
+        "id": "Get Started"
+      }
+    ],
+    "modes": {
+      "Rectangle 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "tap-handler": "$on Click",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 1",
+              "Get Started"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 1",
+            "border-radius": "50.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "Get Started",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "66.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "9.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Get Started ",
+            "overflow": "visible",
+            "text-size": "20.0",
+            "line-height": "1.6015625",
+            "typeface": "Jomolhari"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on Click": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Get Started ": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Rectangle 1",
+      "size": {
+        "width": 233.0,
+        "height": 50.0
+      },
+      "parameters": {
+        "Get Started ": "Get Started"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

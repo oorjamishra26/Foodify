@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgot">
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/forg"
+       android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/back"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:id = "@+id/back"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reset"
+        android:layout_width="240dp"
+        android:layout_height="31dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="215dp"
+        android:background="@drawable/resetpass" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="304dp"
+        android:layout_height="43dp"
+        android:id = "@+id/mail1"
+        android:layout_centerHorizontal="true"
+        android:hint="    Email Address"
+        android:fontFamily="@font/jost"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/dettext" />
+
+</RelativeLayout>

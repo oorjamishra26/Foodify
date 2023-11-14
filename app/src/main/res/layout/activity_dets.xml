@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dets">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detbg"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="257dp"
+        android:layout_height="31dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/dettext"
+        android:id="@+id/name"
+        android:fontFamily="@font/jost"
+        android:hint="   Enter your name"
+        android:textSize="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="257dp"
+        android:layout_height="31dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/dettext"
+        android:id="@+id/contact"
+        android:fontFamily="@font/jost"
+        android:hint="   Enter your phone number"
+        android:textSize="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="257dp"
+        android:layout_height="31dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/dettext"
+        android:id="@+id/apart"
+        android:fontFamily="@font/jost"
+        android:hint="   Enter your apartment"
+        android:textSize="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="257dp"
+        android:layout_height="31dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/dettext"
+        android:id="@+id/street"
+        android:fontFamily="@font/jost"
+        android:hint="   Street"
+        android:textSize="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="257dp"
+        android:layout_height="31dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/dettext"
+        android:id="@+id/land"
+        android:fontFamily="@font/jost"
+        android:hint="   Landmark"
+        android:textSize="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="215dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/save"
+        android:id="@+id/savee"/>
+
+
+
+</RelativeLayout>

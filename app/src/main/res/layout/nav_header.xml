@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="8dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="145dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/prf" />
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:fontFamily="@font/jost"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:textAppearance="?attr/textAppearanceListItem" />
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:textAppearance="?attr/textAppearanceListItem" />
+</LinearLayout>
